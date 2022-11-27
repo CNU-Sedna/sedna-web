@@ -5,6 +5,7 @@ import SystemSetting from "./components/SystemSetting";
 import ReceiverStatus from "./components/ReceiverStatus";
 import CurrentTime from "./components/CurrentTime";
 import OperatedSensorNumber from "./components/OperatedSensorNumber";
+import RestoreDelayFire from "./components/RestoreDelayFire";
 
 const Wrapper = styled.div`
     border: 1px solid black;
@@ -54,6 +55,7 @@ const ScreenLayout = ({children}) => {
         <Main>{children}</Main>
         <Footer>
             <OperatedSensorNumber/>
+            <RestoreDelayFire/>
         </Footer>
     </Wrapper>
     );

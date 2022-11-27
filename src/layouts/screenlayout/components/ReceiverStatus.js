@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import React from "react";
 
 const Wrapper = styled.div`
-    
     background-color: var(--color-lightgray);
     border: 1px solid black;
     display: flex;

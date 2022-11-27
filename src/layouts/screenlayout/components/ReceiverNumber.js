@@ -12,7 +12,6 @@ const Button = styled.button`
     font-size: 20px;
     font-weight: 550;
     margin: 2px;
-    background-color: #fff;
     border: 1px solid black;
     background-color: var(--color-darkwhite);
     cursor: pointer;
