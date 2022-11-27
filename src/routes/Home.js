@@ -1,7 +1,12 @@
 import React from "react";
+import ScreenLayout from "../layouts/ScreenLayout";
 
 const Home = () => {
-    return <span>123</span>
+    return (
+    <ScreenLayout>
+        <div>123</div>
+    </ScreenLayout>
+    );
 }
 
 export default Home;

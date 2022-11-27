@@ -103,8 +103,8 @@ const global = css`
 	section {
 		display: block;
 	}
-	body {
-		line-height: 1;
+	html, body {
+		height: 100%;
 	}
 	ol,
 	ul {
@@ -147,6 +147,14 @@ const global = css`
 		--border-color: 1px solid #dadce0;
 		--border-active: 2px solid #2980b9;
 	}
+	body {
+		div {
+			:first-of-type {
+				height: 100%;
+			}
+		}
+	}
 `;
+
 
 export default global;
