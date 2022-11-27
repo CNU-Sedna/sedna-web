@@ -2,9 +2,14 @@ import styled from "@emotion/styled";
 import React, { useEffect, useState } from "react";
 
 const Wrapper = styled.div`
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: var(--color-lightgray);
+
+    span {
+        font-size: 22px;
+    }
 `;
 
 const CurrentTime = () => {

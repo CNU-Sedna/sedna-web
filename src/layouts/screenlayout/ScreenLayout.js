@@ -18,6 +18,12 @@ const Header = styled.div`
     margin: 0 10px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+`;
+
+const TimeAndSetting = styled.div`
+    display: flex;
+    flex-direction: column;
 `;
 
 const Main = styled.div`
@@ -35,10 +41,10 @@ const ScreenLayout = ({children}) => {
     <Wrapper>
         <Header>
             <ReceiverNumeber/>
-            <div>
+            <TimeAndSetting>
                 <CurrentTime/>
                 <SystemSetting/>
-            </div>
+            </TimeAndSetting>
             <ReceiverStatus/>
         </Header>
         <Main>{children}</Main>
