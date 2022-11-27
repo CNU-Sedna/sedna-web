@@ -3,9 +3,9 @@ import ScreenLayout from "../layouts/ScreenLayout";
 
 const Home = () => {
     return (
-    <ScreenLayout>
-        <div>123</div>
-    </ScreenLayout>
+        <ScreenLayout>
+            <div>123</div>
+        </ScreenLayout>
     );
 }
 

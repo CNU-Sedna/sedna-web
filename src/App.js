@@ -5,18 +5,12 @@ import AppRouter from './Router';
 import { ReactQueryDevtools } from "react-query/devtools";
 import global from './styles/global';
 import { Global } from '@emotion/react';
-import styled from '@emotion/styled';
-
-const Wrapper = styled.div`
-  width: 100%;
-  height: 100%;
-`;
 
 const App = () => {
   const queryClient = new QueryClient();
 
   return (
-    <Wrapper>
+    <>
       <RecoilRoot>
         <QueryClientProvider client={queryClient}>
           <AppRouter/>
@@ -24,7 +18,7 @@ const App = () => {
 					<ReactQueryDevtools initialIsOpen={true} />
         </QueryClientProvider>
       </RecoilRoot>
-    </Wrapper>
+    </>
   );
 }
 

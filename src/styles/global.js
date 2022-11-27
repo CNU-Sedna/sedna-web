@@ -88,6 +88,7 @@ const global = css`
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		box-sizing: border-box;
 	}
 	/* HTML5 display-role reset for older browsers */
 	article,
@@ -105,6 +106,8 @@ const global = css`
 	}
 	html, body {
 		height: 100%;
+		width: 100%;
+		box-sizing: border-box;
 	}
 	ol,
 	ul {
@@ -147,13 +150,13 @@ const global = css`
 		--border-color: 1px solid #dadce0;
 		--border-active: 2px solid #2980b9;
 	}
-	body {
-		div {
-			:first-of-type {
-				height: 100%;
-			}
-		}
+
+	body #root{
+		height: 100%;
+		display: flex;
 	}
+	
+	
 `;
 
 
