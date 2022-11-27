@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 
 const Button = styled.button`
     width: 120px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 550;
     margin: 2px;
     background-color: #fff;

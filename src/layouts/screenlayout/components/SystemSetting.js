@@ -8,11 +8,10 @@ const Wrapper = styled.div`
 `;
 
 const SystemSetting = () => {
-    
 
     return (
         <Wrapper>
-          
+            <span>수신기#</span>
         </Wrapper>
     );
 }

@@ -27,7 +27,7 @@ const TimeAndSetting = styled.div`
 `;
 
 const Main = styled.div`
-    margin: 10px;
+    margin: 0 10px 10px 10px;
     border-radius: 10px;
     border: 1px solid black;
 `;
