@@ -4,13 +4,14 @@ import ReceiverNumeber from "./components/ReceiverNumber";
 import SystemSetting from "./components/SystemSetting";
 import ReceiverStatus from "./components/ReceiverStatus";
 import CurrentTime from "./components/CurrentTime";
+import OperatedSensorNumber from "./components/OperatedSensorNumber";
 
 const Wrapper = styled.div`
     border: 1px solid black;
     margin: 20px;
     border-radius: 10px;
     display: grid;
-    grid-template-rows: 2fr 9fr 1fr;
+    grid-template-rows: 3fr 10fr 2fr;
     flex-grow: 1;
 `;
 
@@ -33,7 +34,10 @@ const Main = styled.div`
 `;
 
 const Footer = styled.div`
-    background-color: blue;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 `;
 
 const ScreenLayout = ({children}) => {
@@ -48,7 +52,9 @@ const ScreenLayout = ({children}) => {
             <ReceiverStatus/>
         </Header>
         <Main>{children}</Main>
-        <Footer></Footer>
+        <Footer>
+            <OperatedSensorNumber/>
+        </Footer>
     </Wrapper>
     );
 }
