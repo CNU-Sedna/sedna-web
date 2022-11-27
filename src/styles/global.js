@@ -146,6 +146,7 @@ const global = css`
 		--color-red: #d55e00;
 		--color-puple: #cc79a7;
 		--color-backgroundwhite: #eee;
+		--color-lightgray: #B2B2B2;
 		--primary-color: #2980b9;
 		--border-color: 1px solid #dadce0;
 		--border-active: 2px solid #2980b9;

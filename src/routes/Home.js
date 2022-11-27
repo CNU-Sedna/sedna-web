@@ -1,5 +1,5 @@
 import React from "react";
-import ScreenLayout from "../layouts/ScreenLayout";
+import ScreenLayout from "../layouts/screenlayout/ScreenLayout";
 
 const Home = () => {
     return (
