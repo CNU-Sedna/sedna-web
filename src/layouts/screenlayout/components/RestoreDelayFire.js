@@ -35,7 +35,7 @@ const OnButton = styled.button`
 const OffButton = styled.button`
     width: 70px;
     margin-left: 10px;
-    background-color: #81C6E8;
+    background-color: #AEBDCA;
     font-size: 20px;
     color: var(--color-black);
     border: none;
@@ -44,7 +44,7 @@ const OffButton = styled.button`
 `;
 
 const RestoreDelayFire = () => {
-    const [isRestore, setIsRestore] = useState(false);
+    const [isRestore, setIsRestore] = useState(true);
     const [isdelay, setIsDelay] = useState(false);
 
     return (
