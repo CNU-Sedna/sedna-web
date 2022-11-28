@@ -27,6 +27,9 @@ const Header = styled.div`
 const TimeAndNumber = styled.div`
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 15px;
 `;
 
 const Main = styled.div`
