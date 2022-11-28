@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import ReceiverNumeber from "./components/ReceiverNumber";
+import ReceiverNumeber from "./components/ReceiverNumeber";
 import SystemSetting from "./components/SystemSetting";
 import ReceiverStatus from "./components/ReceiverStatus";
 import CurrentTime from "./components/CurrentTime";
@@ -24,7 +24,7 @@ const Header = styled.div`
     justify-content: space-around;
 `;
 
-const TimeAndSetting = styled.div`
+const TimeAndNumber = styled.div`
     display: flex;
     flex-direction: column;
 `;
@@ -46,11 +46,11 @@ const ScreenLayout = ({children}) => {
     return (
     <Wrapper>
         <Header>
-            <ReceiverNumeber/>
-            <TimeAndSetting>
+            <SystemSetting/>
+            <TimeAndNumber>
                 <CurrentTime/>
-                <SystemSetting/>
-            </TimeAndSetting>
+                <ReceiverNumeber/>
+            </TimeAndNumber>
             <ReceiverStatus/>
         </Header>
         <Main>{children}</Main>
